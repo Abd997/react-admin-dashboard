@@ -1,11 +1,16 @@
 import React from "react";
+import "./app.css";
+import Sidebar from "./components/siderbar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
 
 const App = () => {
 	return (
-		<div>
+		<>
 			<Topbar />
-		</div>
+			<div className="container">
+				<Sidebar />
+			</div>
+		</>
 	);
 };
 
